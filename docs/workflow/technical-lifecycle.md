@@ -3,6 +3,11 @@
 Canonical workflow for technical projects and features. Every phase has a
 defined completion gate. Do not skip phases.
 
+**Scope:** this lifecycle governs technical work in the component repos (see
+the Components index in `README.md`). This index repo itself is not a
+software project — its invariants live in `CONTEXT.md` (see
+`docs/agents/domain.md`).
+
 ## Overview
 
 ```
@@ -25,8 +30,10 @@ the problem itself is still foggy.
 Outcome: a map — what's known, what's unknown, what to investigate next. The
 map lives as a GitHub issue labelled `wayfinder:map` in the project's repo.
 
-Gate: the map has enough resolution that the next step (Grill) isn't
-speculative. You can describe roughly what you're trying to do.
+Gate: the map has enough resolution that the next phase isn't speculative.
+You can describe roughly what you're trying to do — whether that leads into
+Grill for sharpening, or straight to `to-spec` if the direction is already
+clear.
 
 ---
 
@@ -41,8 +48,8 @@ agent should read before grilling you (existing specs, ADRs, domain models).
 Use `grill-me` when there's nothing to read — the agent explores the codebase
 or project context, then grills you from scratch.
 
-Outcome: a shared understanding. Key decisions captured as ADRs. Glossary
-terms defined. The agent does NOT proceed until you confirm with the
+Outcome: a shared understanding. Key decisions captured as ADRs in repos
+that keep them, otherwise recorded in the spec. Glossary terms defined. The agent does NOT proceed until you confirm with the
 confirmation gate ("don't enact the plan until I confirm we've reached a
 shared understanding").
 

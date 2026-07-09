@@ -3,7 +3,7 @@
 > Tools, skills, and workflows I built to work with my AuDHD brain instead of against it.
 ## The idea
 
-I'm not fixing how I think. Squirrel brain or not, it's not changing, an I'm done arguing with it.
+I'm not fixing how I think. Squirrel brain or not, it's not changing, and I'm done arguing with it.
 
 So the tools take load off instead of demanding discipline. What runs out for me isn't willpower, it's a daily budget of focus. These tools and workflows aid me in spending it carefully.
 
@@ -27,8 +27,8 @@ These live in their own repos but are part of the toolkit. This repo is the inde
 
 | Component | Repo | What it does |
 |-----------|------|--------------|
-| Chaos Dashboard | [chaos-dashboard-new](https://github.com/annalinneejohansson82/chaos-dashboard-new) | Local web dashboard for ADHD digital life support — entropy tracking, scaffolding, reflect tools |
-| Matt Pocock Skills (fork) | [matt-pocock-skills](https://github.com/annalinneejohansson82/matt-pocock-skills) | Forked from [mattpocock/skills](https://github.com/mattpocock/skills) — agent workflow skills, tweaked for Hermes |
+| Chaos Dashboard | [chaos-dashboard-new](https://github.com/annalinneajohansson82/chaos-dashboard-new) | Local web dashboard for ADHD digital life support — entropy tracking, scaffolding, reflect tools |
+| Matt Pocock Skills (fork) | [matt-pocock-skills](https://github.com/annalinneajohansson82/matt-pocock-skills) | Forked from [mattpocock/skills](https://github.com/mattpocock/skills) — agent workflow skills, tweaked for Hermes |
 
 ## What this isn't
 
