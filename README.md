@@ -21,6 +21,14 @@ So the tools take load off instead of demanding discipline. What runs out for me
 
 Things that stop earning their place get cut. That's the system working, not breaking.
 
+## Components
+
+These live in their own repos but are part of the toolkit. This repo is the index — no code gets duplicated here.
+
+| Component | Repo | What it does |
+|-----------|------|--------------|
+| Chaos Dashboard | [chaos-dashboard-new](https://github.com/annalinneejohansson82/chaos-dashboard-new) | Local web dashboard for ADHD digital life support — entropy tracking, scaffolding, reflect tools |
+
 ## What this isn't
 
 - Not advice. Not medical.
