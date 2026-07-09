@@ -6,4 +6,6 @@ exploring issues or making changes.
 
 No ADRs — this is not a software project with architectural decisions. The
 design principles in `CONTEXT.md` serve the same function as ADRs: they
-document the invariants every decision should respect.
+document the invariants every decision should respect. If this repo ever grows
+architectural decisions, they live in `docs/adr/` (the path the skills look
+in); until then, proceed silently — their absence is expected, not a gap.

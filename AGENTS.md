@@ -5,18 +5,26 @@ regardless of harness or model. Everything below points to the canonical doc
 for each rule — read the doc before acting on the rule; don't work from this
 summary alone.
 
-## Issue tracker
+## Agent skills
 
-Issues live in GitHub Issues on this repo. PRs are not a triage surface.
-See `docs/agents/issue-tracker.md`.
+This block is the contract the `setup-matt-pocock-skills` skill reads and
+updates in place. Keep the three sub-sections below; add new guidance as
+additional sections, not by rewriting these headings.
 
-## Triage labels
+### Issue tracker
 
-Labels use the canonical role names directly: `inbox`, `needs-triage`,
-`needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`, plus
-`wayfinder:map` and `spec` from the workflow. See `docs/agents/triage-labels.md`.
+Issues live in GitHub Issues on this repo. External PRs are not a request
+surface. See `docs/agents/issue-tracker.md`.
 
-## Domain docs
+### Triage labels
+
+Canonical role names are used directly as label strings — category roles
+(`bug`, `enhancement`) plus state roles (`needs-triage`, `needs-info`,
+`ready-for-agent`, `ready-for-human`, `wontfix`). `inbox` is a local
+pre-triage role; `wayfinder:*` and `spec` come from the workflow. See
+`docs/agents/triage-labels.md`.
+
+### Domain docs
 
 Single-context. `CONTEXT.md` at root is the canonical description of the
 toolkit's domain model. See `docs/agents/domain.md`.
@@ -34,7 +42,10 @@ work. Do not skip phases.
 ## Skills
 
 The skill names used above (`wayfinder`, `grill-me`, `grill-with-docs`,
-`to-spec`, `to-tickets`, `implement`, `code-review`) come from the
+`to-spec`, `to-tickets`, `implement`, `code-review`, `triage`,
+`setup-matt-pocock-skills`) come from the
 [matt-pocock-skills fork](https://github.com/annalinneajohansson82/matt-pocock-skills),
 installed globally in Hermes (the primary agent for this toolkit). Agents on
-other harnesses should load them from that repo.
+other harnesses should load them from that repo. Those skills read the
+`## Agent skills` config above and the `docs/agents/*` files it points to —
+keep the two in sync.
