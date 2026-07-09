@@ -28,6 +28,7 @@ These live in their own repos but are part of the toolkit. This repo is the inde
 | Component | Repo | What it does |
 |-----------|------|--------------|
 | Chaos Dashboard | [chaos-dashboard-new](https://github.com/annalinneejohansson82/chaos-dashboard-new) | Local web dashboard for ADHD digital life support — entropy tracking, scaffolding, reflect tools |
+| Matt Pocock Skills (fork) | [matt-pocock-skills](https://github.com/annalinneejohansson82/matt-pocock-skills) | Forked from [mattpocock/skills](https://github.com/mattpocock/skills) — agent workflow skills, tweaked for Hermes |
 
 ## What this isn't
 
