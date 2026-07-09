@@ -24,10 +24,8 @@ against it. The scarce resource isn't willpower — it's a daily budget of focus
 
 ## Components
 
-| Component | Repo | What it does |
-|-----------|------|--------------|
-| Chaos Dashboard | [chaos-dashboard-new](https://github.com/annalinneejohansson82/chaos-dashboard-new) | Local web dashboard for ADHD support — entropy tracking, scaffolding, reflect tools |
-| Matt Pocock Skills (fork) | [matt-pocock-skills](https://github.com/annalinneejohansson82/matt-pocock-skills) | Agent workflow skills, forked and tweaked for Hermes |
+The components are indexed once, in the Components table in `README.md` —
+this file does not duplicate it.
 
 ## Vocabulary
 
