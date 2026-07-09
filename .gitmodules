@@ -1,0 +1,3 @@
+[submodule "chaos-dashboard"]
+	path = chaos-dashboard
+	url = git@github.com:annalinneajohansson82/chaos-dashboard-new.git
