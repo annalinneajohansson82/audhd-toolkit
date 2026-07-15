@@ -1,0 +1,3 @@
+[submodule "hermes/plugins/memory-md-consolidation"]
+	path = hermes/plugins/memory-md-consolidation
+	url = git@github.com:annalinneajohansson82/memory-md-consolidation.git
