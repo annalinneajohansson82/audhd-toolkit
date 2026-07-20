@@ -3,9 +3,8 @@
 > Tools, skills, and workflows I built to work with my AuDHD brain instead of against it.
 ## The idea
 
-I'm not fixing how I think. Squirrel brain or not, it's not changing, and I'm done arguing with it.
-
-So the tools take load off instead of demanding discipline. What runs out for me isn't willpower, it's a daily budget of focus. These tools and workflows aid me in spending it carefully.
+Tools to take load off a chaotic brain instead of demanding discipline. 
+What runs out for me isn't willpower but a daily budget of focus: these tools and workflows aid me in spending it carefully.
 
 ## Why they're shaped like this
 
